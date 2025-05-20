@@ -26,7 +26,7 @@ class Solution:
             return
         j = len(nums)-1
 
-        while j>=i and nums[j] <= nums[i-1]:
+        while j>=i and nums[j] <=nums[i-1]:
             j-=1
         nums[i-1],nums[j] = nums[j],nums[i-1]
         nums[i:] = reversed(nums[i:])
