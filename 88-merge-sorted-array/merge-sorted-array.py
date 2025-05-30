@@ -9,3 +9,11 @@ class Solution:
             j+=1
         nums1.sort()
         
+
+
+
+
+        # j=0
+        # for i in range(m,len(nums1)):
+        #     nums1[i] = nums2[j]
+        # nums1.sort()
